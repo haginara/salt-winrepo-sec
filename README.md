@@ -6,7 +6,7 @@ Salt Windows Software Package Manager Repo for Security.
 
 Installation
 ------------
-Put sysmon.sls on <winrepo_dir_ng>/salt-winrepo-ng/
+Put sysmon.sls on <winrepo_dir_ng>/salt-winrepo-ng/ and run **pkg.refresh_db** to windows-minion-client
 
 ```
 $ sudo salt -G 'os:windows' pkg.install 'sysmon'
